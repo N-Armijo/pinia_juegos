@@ -25,6 +25,7 @@ const { incrementar, decrementar } = juegosStore // va desestructurando
                         <td>{{ juego.stock }}</td>
                         <td>
                             <button @click="decrementar(i)" class="btn btn-danger me-1">-</button>
+                            <!--No olvidar pasar el parametro del index a la funcion-->
                             <button @click="incrementar(i)" class="btn btn-success">+</button>
                         </td>
                     </tr>

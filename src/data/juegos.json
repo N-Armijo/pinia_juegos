@@ -1,0 +1,7 @@
+[
+  { "id": 0, "nombre": "Juego A", "stock": 5 },
+
+  { "id": 1, "nombre": "Juego B", "stock": 3 },
+
+  { "id": 2, "nombre": "Juego C", "stock": 10 }
+]
